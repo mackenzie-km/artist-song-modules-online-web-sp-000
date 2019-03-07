@@ -10,7 +10,7 @@ end
 end 
 
 module InstanceMethods
-    def initialize
+  def initialize
     self.class.all << self
     @songs = []
   end

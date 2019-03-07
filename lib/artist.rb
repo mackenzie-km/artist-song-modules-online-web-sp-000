@@ -12,7 +12,7 @@ class Artist
   
   def initialize 
     super 
-    @@artists << self 
+    @songs << self 
   end 
 
   def self.all
